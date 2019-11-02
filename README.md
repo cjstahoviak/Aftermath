@@ -1,93 +1,34 @@
-AFTERMATH
+# AFTERMATH
 
-Run below code in /src to compile OR use this make file
-gcc main.c player.c background.c -lSDL2 -lSDL2main -lSDL2_image -lSDL2_mixer -lm -o main
-
-# Project Title
-
-One Paragraph of project description goes here
+This is a small 2d pixel art game. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+All that needs to be done is for the SDL2 libraries to be installed on your linux machine and then run the compile line in Aftermath/src
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+SDL2 libraries must be installed, this can be done easily with one command lien arguement.
 
 ```
-Give examples
+sudo apt-get install libsdl2-image-2.0-0 libsdl2-image-dev libsdl2-mixer-2.0-0
 ```
 
-### Installing
+### Launching Game
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+To launch the game run the below command line arguement in Aftermath/srs
 
 ```
-Give the example
+gcc main.c player.c background.c -lSDL2 -lSDL2main -lSDL2_image -lSDL2_mixer -lm -o main
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [SDL](https://wiki.libsdl.org/) - Graphics framework used
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Calvin Stahoviak**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* **John Arguyes**
