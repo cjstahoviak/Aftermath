@@ -1,6 +1,8 @@
 # AFTERMATH
 
-This is a small 2d pixel art game. 
+Jump into a post apocolyptic world fully and ready to explore!
+
+This is a small 2d pixel art game. All textures, code, and sound effects/tracks are original content created and recorded by us. The graphics framework used to build it was SDL2.
 
 ## Getting Started
 
